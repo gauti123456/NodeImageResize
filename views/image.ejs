@@ -1,0 +1,11 @@
+<img width="200" height="200" src="<%=url%>"/>
+
+<form method="post" action="/resize/<%=name%>">
+    <h1>Width</h1>
+    <label><%=width%></label>
+    <h1>Height</h1>
+    <label><%=height%></label>
+    <input type="number" name="width"/>
+    <input type="number" name="height"/>
+    <input type="submit" value="Resize"/>
+</form>
